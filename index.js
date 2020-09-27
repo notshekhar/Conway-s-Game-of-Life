@@ -2,7 +2,7 @@ const canvas = document.querySelector("canvas")
 const ctx = canvas.getContext("2d")
 
 const [canvasWidth, canvasHeight] = [canvas.width, canvas.height]
-const res = 5
+const res = 10
 const [rows, cols] = [canvasWidth / res, canvasHeight / res]
 
 function createGrid(rows, cols) {
